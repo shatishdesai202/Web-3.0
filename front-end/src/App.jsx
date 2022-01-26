@@ -7,7 +7,7 @@ import {
   Footer,
   Navbar,
   Services,
-  Transaction,
+  Transactions,
   Welcome,
 } from "./component";
 
@@ -21,7 +21,7 @@ function App() {
         <Welcome />
       </div>
       <Services />
-      <Transaction />
+      <Transactions />
       <Footer />
     </div>
   );

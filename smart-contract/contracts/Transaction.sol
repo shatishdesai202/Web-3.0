@@ -16,9 +16,9 @@ contract Transaction {
 
     //  like object
     struct TransferStruct {
-        address from;
+        address sender;
         address receiver;
-        uint256 amount;
+        uint amount;
         string message;
         uint256 timestamp;
         string keyword;
